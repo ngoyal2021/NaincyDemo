@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SalesChamp Application Test Automation Test Suite]">
+  <test thread-count="5" name="OpenProject(failed)">
+    <classes>
+      <class name="com.saleschamp.testcases.ApplyForJob">
+        <methods>
+          <include name="initialization"/>
+          <include name="setUp"/>
+          <include name="setExtent"/>
+          <include name="TC001_ApplyForRole"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.saleschamp.testcases.ApplyForJob -->
+    </classes>
+  </test> <!-- OpenProject(failed) -->
+</suite> <!-- Failed suite [SalesChamp Application Test Automation Test Suite] -->

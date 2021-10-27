@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="230060" started-at="2021-10-27T09:00:12Z" finished-at="2021-10-27T09:04:02Z">
+    <groups>
+      <group name="Functionality">
+        <method signature="ApplyForJob.TC001_ApplyForRole()[pri:0, instance:com.saleschamp.testcases.ApplyForJob@5f058f00]" name="TC001_ApplyForRole" class="com.saleschamp.testcases.ApplyForJob"/>
+      </group> <!-- Functionality -->
+    </groups>
+    <test name="Default test" duration-ms="230060" started-at="2021-10-27T09:00:12Z" finished-at="2021-10-27T09:04:02Z">
+      <class name="com.saleschamp.testcases.ApplyForJob">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.saleschamp.testcases.ApplyForJob@5f058f00]" name="setExtent" is-config="true" duration-ms="253" started-at="2021-10-27T09:00:11Z" finished-at="2021-10-27T09:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.saleschamp.testcases.ApplyForJob@5f058f00]" name="initialization" is-config="true" duration-ms="9323" started-at="2021-10-27T09:00:12Z" finished-at="2021-10-27T09:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.saleschamp.testcases.ApplyForJob@5f058f00]" name="setUp" is-config="true" duration-ms="95" started-at="2021-10-27T09:00:21Z" finished-at="2021-10-27T09:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC001_ApplyForRole()[pri:0, instance:com.saleschamp.testcases.ApplyForJob@5f058f00]" name="TC001_ApplyForRole" duration-ms="219246" started-at="2021-10-27T09:00:21Z" finished-at="2021-10-27T09:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_ApplyForRole -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saleschamp.testcases.ApplyForJob@5f058f00]" name="tearDown" is-config="true" duration-ms="1354" started-at="2021-10-27T09:04:00Z" finished-at="2021-10-27T09:04:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC001_ApplyForRole status=SUCCESS method=ApplyForJob.TC001_ApplyForRole()[pri:0, instance:com.saleschamp.testcases.ApplyForJob@5f058f00] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saleschamp.testcases.ApplyForJob -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
